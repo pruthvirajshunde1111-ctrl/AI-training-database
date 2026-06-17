@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "data-factory"
+version = "0.1.0"
+description = "AI Training Dataset Generation Pipeline"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "requests>=2.31.0",
+]
+
+[project.scripts]
+data-factory = "data_factory.cli.main:main"
+
+[tool.setuptools.packages.find]
+include = ["data_factory*"]
