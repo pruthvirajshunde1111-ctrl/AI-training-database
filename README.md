@@ -1,17 +1,16 @@
 # Data Factory
 
-**AI Training Dataset Generation Pipeline**
-
-A modular, production-ready system for transforming raw documents into high-quality AI training datasets. Supports PDF files, plain text files, and web URLs as sources. Generates question-answer pairs, summarization tasks, and classification labels using either LLM-based generation (OpenRouter / OpenAI) or fast rule-based fallback. Includes automated quality control with configurable thresholds, a CLI tool, and an interactive Streamlit dashboard.
-
----
-# Data Factory
-
 **AI Training Dataset Generation Pipeline** — A modular, production-ready system for transforming raw documents into high-quality AI training datasets. Supports multiple document sources, LLM-powered and rule-based task generation, automated quality control, and interactive monitoring.
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-111827?style=flat-square)
 ![Build](https://img.shields.io/badge/tests-35%2F35-passing-059669?style=flat-square)
 ![Coverage](https://img.shields.io/badge/license-MIT-6b7280?style=flat-square)
+
+## Live Application
+
+Access the Data Factory dashboard at:
+
+https://pruthvirajshunde1111-ctrl-ai-tr-data-factorydashboardapp-ysjnl2.streamlit.app/
 
 ---
 
